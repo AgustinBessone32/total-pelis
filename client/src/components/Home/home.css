@@ -1,0 +1,22 @@
+.content-home{
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background: url("../../img/bg2.jpg");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 60px;
+    
+}
+
+.div-name{
+    border: 2px dashed white;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 40px;
+    margin: 15px;
+}

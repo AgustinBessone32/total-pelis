@@ -1,0 +1,16 @@
+.content-allFavs{
+    background: url('../../img/bg2.jpg');
+    height: 93vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fav-err{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}

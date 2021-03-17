@@ -1,0 +1,32 @@
+.content-all-fav{
+    padding: 20px;
+    padding-right: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content-all-fav.none{
+    display: none;
+}
+
+.content-fav{
+    height: 65vh;
+    width: 240px;
+    color: white;
+}
+
+.content-fav p{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.content-fav  img{
+    height: 50vh;
+}
+
+.btn-del-fav{
+    margin-bottom: 10px;
+    background: tomato;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
