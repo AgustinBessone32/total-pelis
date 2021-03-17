@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/total-pelis/static/css/main.a7e5a6ab.chunk.css",
-    "main.js": "/total-pelis/static/js/main.56244c67.chunk.js",
-    "main.js.map": "/total-pelis/static/js/main.56244c67.chunk.js.map",
+    "main.js": "/total-pelis/static/js/main.58a319d8.chunk.js",
+    "main.js.map": "/total-pelis/static/js/main.58a319d8.chunk.js.map",
     "runtime-main.js": "/total-pelis/static/js/runtime-main.6a9d9394.js",
     "runtime-main.js.map": "/total-pelis/static/js/runtime-main.6a9d9394.js.map",
     "static/js/2.ab591448.chunk.js": "/total-pelis/static/js/2.ab591448.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.6a9d9394.js",
     "static/js/2.ab591448.chunk.js",
     "static/css/main.a7e5a6ab.chunk.css",
-    "static/js/main.56244c67.chunk.js"
+    "static/js/main.58a319d8.chunk.js"
   ]
 }
