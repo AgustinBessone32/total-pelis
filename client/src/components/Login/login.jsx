@@ -29,10 +29,6 @@ const Login = () => {
           }))
 
         .catch(e => {
-          if(e.code === 'auth/email-already-in-use'){ addToast('Email ya registrado', {
-            appearance: 'error',
-            autoDismiss: true,
-            })}
           if(e.code === 'auth/invalid-email') { addToast('Email incorrecto, porfavo ingrese otro', {
           appearance: 'error',
           autoDismiss: true,
@@ -53,6 +49,7 @@ const Login = () => {
     }))
     .then(() => history.push('/total-pelis/home'))
     .catch( e => {
+      
       if(e.code === 'auth/wrong-password') { addToast('Contraseña incorrecta', {
         appearance: 'error',
         autoDismiss: true,
