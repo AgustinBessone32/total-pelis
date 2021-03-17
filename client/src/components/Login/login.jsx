@@ -15,7 +15,6 @@ const Login = () => {
 
 
   const registerUser = (e) =>{
-      console.log(user ,pass)
       e.preventDefault()
     
       auth.createUserWithEmailAndPassword(user, pass)
@@ -30,6 +29,10 @@ const Login = () => {
           }))
 
         .catch(e => {
+          if(e.code === 'auth/email-already-in-use'){ addToast('Email ya registrado', {
+            appearance: 'error',
+            autoDismiss: true,
+            })}
           if(e.code === 'auth/invalid-email') { addToast('Email incorrecto, porfavo ingrese otro', {
           appearance: 'error',
           autoDismiss: true,
