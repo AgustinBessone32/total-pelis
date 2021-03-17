@@ -10,14 +10,14 @@ import {SERVER} from '../../config'
 const Login = () => {
   const { addToast } = useToasts()
   const history = useHistory()
+  const [reg, setReg] = useState(false)
   const [user , setUser] = useState('')
   const [pass , setPass] = useState('')
 
 
   const registerUser = (e) =>{
       e.preventDefault()
-    
-      auth.createUserWithEmailAndPassword(user, pass)
+       auth.createUserWithEmailAndPassword(user, pass)
         .then(res => 
           axios({
             method: 'post',
@@ -41,7 +41,8 @@ const Login = () => {
     })
   }
 
-  const loginUser = () =>{
+  const loginUser = (e) =>{
+    e.preventDefault()
     auth.signInWithEmailAndPassword(user, pass)
     .then(()=> addToast('Inicio de sesión exitoso', {
       appearance: 'success',
@@ -79,7 +80,7 @@ const Login = () => {
                         onChange={(e) => setPass(e.target.value)}
                 />
                 <br/>
-                <button type='submit' className='btn-reg'> Registrarse </button>
+                <button type='submit' onClick={() =>registerUser} className='btn-reg'> Registrarse </button>
                 <br/>
                 <button  onClick={loginUser} className='btn-log'> Iniciar Sesión </button>
             </form>
