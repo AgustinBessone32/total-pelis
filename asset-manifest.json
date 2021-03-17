@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/total-pelis/static/css/main.a7e5a6ab.chunk.css",
+    "main.js": "/total-pelis/static/js/main.d98aaf21.chunk.js",
+    "main.js.map": "/total-pelis/static/js/main.d98aaf21.chunk.js.map",
+    "runtime-main.js": "/total-pelis/static/js/runtime-main.6a9d9394.js",
+    "runtime-main.js.map": "/total-pelis/static/js/runtime-main.6a9d9394.js.map",
+    "static/js/2.ab591448.chunk.js": "/total-pelis/static/js/2.ab591448.chunk.js",
+    "static/js/2.ab591448.chunk.js.map": "/total-pelis/static/js/2.ab591448.chunk.js.map",
+    "static/js/3.3f4bcefa.chunk.js": "/total-pelis/static/js/3.3f4bcefa.chunk.js",
+    "static/js/3.3f4bcefa.chunk.js.map": "/total-pelis/static/js/3.3f4bcefa.chunk.js.map",
+    "index.html": "/total-pelis/index.html",
+    "static/css/main.a7e5a6ab.chunk.css.map": "/total-pelis/static/css/main.a7e5a6ab.chunk.css.map",
+    "static/js/2.ab591448.chunk.js.LICENSE.txt": "/total-pelis/static/js/2.ab591448.chunk.js.LICENSE.txt",
+    "static/media/movieDetail.css": "/total-pelis/static/media/bg2.ab202f09.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a9d9394.js",
+    "static/js/2.ab591448.chunk.js",
+    "static/css/main.a7e5a6ab.chunk.css",
+    "static/js/main.d98aaf21.chunk.js"
+  ]
+}
