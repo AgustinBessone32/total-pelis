@@ -1,0 +1,25 @@
+.content-all-footer{
+    background: black;
+    color: white;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: center
+}
+
+.content-copy{
+    padding-top: 20px;
+}
+
+.content-social{
+    padding-top: 11px;
+    font-size: 25px;
+    padding-left: 70px;
+    
+}
+
+.icn-soc{
+    margin: 12px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}

@@ -8,6 +8,7 @@ import Home from './components/Home/home';
 import Login from './components/Login/login';
 import  MovieDetail  from './components/MovieDetail/movieDetail';
 import Nav from './components/Nav/nav';
+import Footer from './components/Footer/footer';
 
 function App() {
   const [userLog, setUserLog] = useState(null)
@@ -37,6 +38,9 @@ function App() {
         </Route>
         <Route exact path='/total-pelis/home/favorites'>
           <Favorites user={userLog} />
+        </Route>
+        <Route path='/total-pelis/home'>
+          <Footer />
         </Route>
 
       </Router>
