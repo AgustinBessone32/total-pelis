@@ -3,8 +3,10 @@ import './fav.css'
 import axios from 'axios'
 import {SERVER, IMAGES} from '../../config'
 import { useToasts } from 'react-toast-notifications'
+import {useHistory} from 'react-router-dom'
 
 const Fav = ({movie , user}) => {
+    const history = useHistory()
     const { addToast } = useToasts()
     const [movLoc, setMovLoc] = useState(true)
     const delFav = (id) =>{
@@ -25,11 +27,11 @@ const Fav = ({movie , user}) => {
                 else return 'none'
             }   
 
-
     return(
-        <div className={`content-all-fav ${updateMovLoc(movLoc)}`}>
+        <div className={`content-all-fav ${updateMovLoc(movLoc)}`} >
             <div className='content-fav'>
-                <img src={IMAGES + movie.image}></img>
+                <img src={IMAGES + movie.image} 
+                    onClick={() => history.push(`/total-pelis/home/movie/${movie.idMovie}`)}/>
                 <p>{movie.name}</p>
                 <button className='btn-del-fav' onClick={() => delFav(movie.idMovie)}>
                     Borrar de favoritos</button>
