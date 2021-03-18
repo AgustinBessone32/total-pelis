@@ -1,7 +1,6 @@
 .content-home{
     height: 100vh;
-    font-family: 'Montserrat', sans-serif;
-    background: url("../../img/bg2.jpg");
+    font-family: 'Montserrat', sans-serif;   
     color: white;
     display: flex;
     flex-direction: column;
@@ -10,7 +9,9 @@
     justify-content: center;
     font-weight: bold;
     font-size: 60px;
-    
+    animation-name: backg;
+    animation-duration: 12s ;
+    animation-iteration-count: infinite;
 }
 
 .div-name{
@@ -19,4 +20,12 @@
     padding: 5px;
     font-size: 40px;
     margin: 15px;
+}
+
+@keyframes backg{
+    0%{background: url("../../img/bg1.jpg")}
+    25%{background: url("../../img/bg2.jpg")}
+    50%{background: url("../../img/bg3.jpg");}
+    100%{background: url("../../img/bg4.jpg")}
+
 }
