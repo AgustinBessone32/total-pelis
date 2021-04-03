@@ -12,7 +12,6 @@
 .movie-detail-content{
     display:flex; 
     width: 90vh; 
-    
 }
 
 .movie-detail{
@@ -52,6 +51,18 @@
 
 .div-md{
     margin-bottom: 10px;
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+.div-md::-webkit-scrollbar{
+    width: 10px;
+    background: transparent;
+}
+
+.div-md::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 10px;
 }
 
 .md-vote.red{
