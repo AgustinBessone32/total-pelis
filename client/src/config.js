@@ -4,3 +4,5 @@ export const SEARCH = "https://api.themoviedb.org/3/search/movie?&api_key=f3e32d
 
 
 export const SERVER = "https://total-pelis.herokuapp.com"
+
+//export const SERVER = "http://localhost:4000"

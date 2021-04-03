@@ -5,7 +5,8 @@ const mongoose = require('mongoose')
 var cors = require('cors')
 require('dotenv').config()
 
-const url =`mongodb+srv://${process.env.USER}:${process.env.PASS}@cluster0.qf6tz.mongodb.net/${process.env.DBNAME}?retryWrites=true&w=majority`;
+const url =`mongodb+srv://${process.env.USER}:${process.env.PASS}@cluster0.qf6tz.mongodb.net/${process.env.DBNAME}}?retryWrites=true&w=majority`;
+//const url = 'mongodb://localhost/total-pelis'
 
 
 

@@ -3,6 +3,7 @@
     padding-right: 0px;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
+    margin-right: 40px;
 }
 
 .content-all-fav.none{
@@ -13,6 +14,7 @@
     height: 65vh;
     width: 240px;
     color: white;
+    
 }
 
 .content-fav p{
